@@ -1,14 +1,10 @@
-const LOCAL_FORECAST = {
-  today: { min: 72, max: 83 },
-  tomorrow: { min: 73.3, max: 84.6 }
-};
-
-function getMaxOfTmrw(forecast) {
+let a = 8, b = 6;
+(() => {
   "use strict";
   // change code below this line
-  const {tomorrow: {max:maxOfTomorrow}} = forecast;
+  const arr = [b, a];
+  [a, b] = arr;
   // change code above this line
-  return maxOfTomorrow;
-}
-
-console.log(getMaxOfTmrw(LOCAL_FORECAST)); // should be 84.6
+})();
+console.log(a); // should be 6
+console.log(b); // should be 8
