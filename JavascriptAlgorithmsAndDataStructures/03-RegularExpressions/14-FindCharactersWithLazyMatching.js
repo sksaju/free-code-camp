@@ -1,4 +1,4 @@
-let chewieQuote = "Aaaaaaaaaaaaaaaarrrgh!";
-let chewieRegex = /Aa*/; // Change this line
-let result = chewieQuote.match(chewieRegex);
+let text = "<h1>Winter is coming</h1>";
+let myRegex = /<.*?>/; // Change this line
+let result = text.match(myRegex);
 console.log(result);
