@@ -1,2 +1,11 @@
-let innerHtml = "<p>Click here to <a href='#Home'>return home</a></p>";
-console.log(innerHtml);
+let x = 7;
+let y = 9;
+let result = "to come";
+
+if(x == y) {
+  result = "Equal!";
+} else {
+  result = "Not equal!";
+}
+
+console.log(result);
