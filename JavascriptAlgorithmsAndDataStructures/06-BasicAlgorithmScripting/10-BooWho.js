@@ -1,10 +1,9 @@
-function findElement(arr, func) {
-  for(let i=0; i<arr.length; i++) {
-    if(func(arr[i])) {
-      return arr[i];
-    }
+function booWho(bool) {
+  // What is the new fad diet for ghost developers? The Boolean.
+  if(typeof bool === 'boolean') {
+    return true;
   }
-  return undefined;
+  return false;
 }
 
-findElement([1, 2, 3, 4], num => num % 2 === 0);
+console.log(booWho(null));
